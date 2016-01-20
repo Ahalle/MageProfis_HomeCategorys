@@ -28,27 +28,6 @@
             </add_category_attribute_setup>
         </resources>
     </global>
-    <adminhtml>
-        <acl>
-            <resources>
-                <admin>
-                    <children>
-                        <system>
-                            <children>
-                                <config>
-                                    <children>
-                                        <portakosmetik>
-                                            <title>Portakosmetik</title>
-                                        </portakosmetik>
-                                    </children>
-                                </config>
-                            </children>
-                        </system>
-                    </children>
-                </admin>
-            </resources>
-        </acl>
-    </adminhtml>
     <frontend>
 	    <layout>
 	        <updates>
