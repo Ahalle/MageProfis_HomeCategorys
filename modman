@@ -1,0 +1,4 @@
+src/app/code/local/MageProfis/PromotionCategorys                        		 app/code/local/MageProfis/PromotionCategorys
+src/app/etc/modules/MageProfis_PromotionCategorys.xml                   		 app/etc/modules/MageProfis_PromotionCategorys.xml
+src/app/design/frontend/base/default/layout/MageProfis_PromotionCategorys.xml            app/design/frontend/base/default/layout/MageProfis_PromotionCategorys.xml
+src/app/design/frontend/base/default/template/catalog/category/promotion.phtml           app/design/frontend/base/default/template/catalog/category/promotion.phtml

@@ -1,0 +1,8 @@
+<config>
+   <modules>
+      <MageProfis_PromotionCategorys>
+         <active>true</active>
+         <codePool>local</codePool>
+      </MageProfis_PromotionCategorys>
+   </modules>
+</config>

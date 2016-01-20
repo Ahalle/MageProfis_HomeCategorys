@@ -1,0 +1,30 @@
+<?php $categorys = $this->getCategories();?>
+<?php if($categorys->count() > 0):?>
+<div class="promotion-categorys row group">
+	<?php foreach($categorys as $_category):?>
+		<div class="promotion-cat col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="inner-wrap">
+				<div class="category-image">
+					<a href="<?php echo $_category->getUrl() ?>" title="<?php echo $_category->getName(); ?>">
+						<?php if($_category->getImageUrl()):?>
+						<img src="<?php echo $_category->getImageUrl();?>" alt="<?php echo $_category->getName(); ?>" />
+						<?php else:?>
+							<img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'catalog/category/placeholder_home.jpg'?>" alt="<?php echo $_category->getName(); ?>" />
+						<?php endif;?>
+					</a>
+				</div>
+                <a href="<?php echo $_category->getUrl() ?>" title="<?php echo $_category->getName(); ?>">
+                    <div class="promotion-element">
+                        <div class="category-name">
+                            <?php echo $_category->getName(); ?>
+                        </div>
+                        <div class="category-promotion-text">
+                            <?php echo $_category->getPromotionText(); ?>
+                        </div>
+                    </div>
+                </a>
+			</div>
+		</div>
+	<?php endforeach; ?>
+</div>
+<?php endif; ?>
