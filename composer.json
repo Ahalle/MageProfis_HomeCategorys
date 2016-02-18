@@ -1,0 +1,26 @@
+{
+  "name": "mageprofis/homecategorys",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "MageProfis HomepageCategorys",
+  "homepage": "https://github.com/Ahalle/MageProfis_HomeCategorys",
+  "require": {
+    "php": ">=5.3"
+  },
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Alexander Halle",
+      "email": "alexander@mage-profis.de",
+      "role": "Author/Maintainer"
+    },
+    {
+      "name": "Adam Varga",
+      "email": "adam@mage-profis.de",
+      "role": "Author/Maintainer"
+    }
+  ]
+}
+ 
